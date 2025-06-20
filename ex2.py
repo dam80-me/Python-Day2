@@ -14,3 +14,14 @@ print("---Initial Student Scores---")
 for name, score in student_scores.items():
     print(f"{name}: {score}")
 print("\n")
+
+#Add a new student and their score to the dictionary.
+new_student_name = "Grace"
+new_student_score = 90
+student_scores[new_student_name]=new_student_score
+print(f"---Added New Student: {new_student_name} with score {new_student_score}")
+for name, score in student_scores.items():
+    print(f"{name}: {score}")
+print("\n")
+
+# Update the score for an existing student
