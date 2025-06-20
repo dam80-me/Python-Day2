@@ -25,3 +25,20 @@ for name, score in student_scores.items():
 print("\n")
 
 # Update the score for an existing student
+
+
+
+#Find the student with the highest score and print their name and score
+if student_scores: #Ensure the dictionary is not empty
+    highest_score = 0
+    highest_scorer_name =""
+    for name, score in student_scores.items():
+        if score > highest_score:
+            highest_score=score
+            highest_scorer_name = name
+    print(f"--- Student with the Highest Score ---")
+    print(f"{highest_scorer_name}:{highest_score}\n")
+else:
+    print("The dictionary is empty, cannot find the highest score.\n")
+
+#Create a new dictionary containing only students who scored 90 or
