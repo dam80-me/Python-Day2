@@ -10,3 +10,13 @@ print(temp)
 
 #Find the maximum and minimum temperature in the list
 max_temperature = max(temperatures)
+min_temperature = min(temperatures)
+
+#Calculate the average temperature
+average_temperature = sum(temperatures)/len(temperatures)
+
+#Print the modofied list, the maximum, minimum, and average temperature
+print(f"Modified temperatures list: {max_temperature}")
+print(f"Maximum temperatures list: {max_temperature}")
+print(f"Minimum temperatures list: {max_temperature}")
+print(f"Average temperatures list: {average_temperature: .2f}")
