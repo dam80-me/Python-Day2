@@ -25,6 +25,13 @@ for name, score in student_scores.items():
 print("\n")
 
 # Update the score for an existing student
+student_to_update ="Alice"
+new_score_for_alice = 87
+student_scores[student_to_update] = new_score_for_alice
+print(f"---Updated {student_to_update} 's score to {new_score_for_alice}")
+for name, score in student_scores.items():
+    print(f"{name}: {score}")
+print("\n")
 
 
 
