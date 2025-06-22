@@ -28,7 +28,9 @@ try:
 
         #Write all employee data rows
         writer.writerows(employees_data)
-        print(f"Successfully wrote {len(employees_data)} employee recordes to ")
+        print(f"Successfully wrote {len(employees_data)} employee recordes to '{csv_file_name}'")
 
 except IOErroras as e:
-    print(f"Error: Could not write to file ")
+    print(f"Error: Could not write to file '{csv_file_name}.{e}")
+except Exception as e:
+    print(f"An unexpected error occured: {e}")
