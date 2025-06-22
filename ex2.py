@@ -49,3 +49,14 @@ else:
     print("The dictionary is empty, cannot find the highest score.\n")
 
 #Create a new dictionary containing only students who scored 90 or
+high_achievers ={}
+for name, score in student_scores.items():
+    if score>=90:
+        high_achievers[name] =score
+
+print("---High Achievers (Score 90 or Above) ---")
+if high_achievers:
+    for name, score in high_achievers.items():
+        print(f"{name}:{score}")
+else:
+    print("No students scored 90 or above")
