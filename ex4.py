@@ -32,6 +32,11 @@ def update_stock(product_id, quantity):
         print(f"Error: Product with ID '{product_id}' not found in inventory")
 
 def get_low_stock_products (threshold):
+    """Returns a list of product names that have stock below the given
+    
+    Args:
+    threshold (int): The stock level below which a a product is
+    """
 
     get_low_stock_products = []
     for product in inventory:
