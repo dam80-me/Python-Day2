@@ -43,8 +43,9 @@ def get_low_stock_products (threshold):
     print("--- Demonstrating Stock Updates---")
     #Demonstrate updating stock for two different products
     update_stock("P001",-10)
-    
-
+    update_stock("P001",-10)
+    update_stock("P001",-10)
+    update_stock("P001",-10)
 
 
 
