@@ -9,4 +9,7 @@ print(f"{numbers}")
 temperatures.append(31.0)
 
 # Remove the third element (index 2)  from the list
-temp print(temp)
+temp = temperatures.pop(2)
+print(temp)
+
+# Find the Minimum and Maximum
