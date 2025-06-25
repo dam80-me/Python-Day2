@@ -9,7 +9,7 @@ employees_data = [
         {"Name": "Eve Adams", "Department": "IT", "Salary":70000}
         ]
 
-# Define the name of the CSV file
+# Define the name of the CSV file to read from
 csv_file_name = "employees.csv"
 
 # Define the feild names (headers) for the csv file
